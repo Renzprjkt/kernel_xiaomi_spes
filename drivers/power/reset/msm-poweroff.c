@@ -512,7 +512,7 @@ static void msm_restart_prepare(const char *cmd)
 		__raw_writel(0x77665502, restart_reason);
 		goto finish_set_restart_reason;
 	}
-	
+
 	if (cmd != NULL) {
 		if (!strncmp(cmd, "bootloader", 10)) {
 			qpnp_pon_set_restart_reason(
