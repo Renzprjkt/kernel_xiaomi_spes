@@ -3961,7 +3961,6 @@ tpdm_turing_llm: tpdm@8861000 {
  			opp-microvolt = <RPMH_REGULATOR_LEVEL_LOW_SVS>;
 		};
 	};
-};
 
 &msm_gpu {
 	qcom,chipid = <0x06010001>;
